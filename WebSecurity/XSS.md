@@ -1,17 +1,15 @@
 # XSS
 
-Cross Site Scription
+Cross-site scripting
 
-跨站脚本攻击
+Cross-site scripting (XSS) is a type of computer security vulnerability typically found in web applications.
 
-## Fundamental
+XSS enables attackers to inject client-side scripts into web pages viewed by other users.
 
-脚本注入
+## Prevention
+
+* [CSP](./CSP.md)
 
 ## Reference
 
-> [WiKi](https://en.wikipedia.org/wiki/Cross-site_scripting)
-
-> [WiKi 中文](https://zh.wikipedia.org/wiki/%E8%B7%A8%E7%B6%B2%E7%AB%99%E6%8C%87%E4%BB%A4%E7%A2%BC)
-
-> [XSS 攻击入门](http://www.cnblogs.com/bangerlee/archive/2013/04/06/3002142.html)
+> [WiKi](https://en.wikipedia.org/wiki/Cross-site_scripting)  [(zh)](https://zh.wikipedia.org/wiki/%E8%B7%A8%E7%B6%B2%E7%AB%99%E6%8C%87%E4%BB%A4%E7%A2%BC)
