@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo apt-get install mysql-workbench
+
+sudo apt-get install mysql-server-5.7

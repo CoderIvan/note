@@ -1,0 +1,15 @@
+#!/bin/bash
+
+sudo mkdir -p /usr/share/fonts/winFonts
+
+sudo cp ./*.ttf /usr/share/fonts/winFonts/
+
+sudo chmod 644 /usr/share/fonts/winFonts/*.ttf
+
+cd /usr/share/fonts/winFonts/
+
+sudo mkfontscale
+
+sudo mkfontdir
+
+sudo fc-cache -fv
