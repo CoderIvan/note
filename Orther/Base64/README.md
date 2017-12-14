@@ -1,5 +1,7 @@
 # Base64
 
+Base64可以用来将二进制的数据编码成文本格式
+
 #### 转换方式
 1. 每三个字节作为一组，一共是24个二进制位。
 1. 这24个二进制位分为四组，每个组有6个二进制位。
@@ -40,3 +42,4 @@
 ## 引用
 * [廖雪峰--Base64](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001399413803339f4bbda5c01fc479cbea98b1387390748000)
 * [阮一峰--Base64笔记](http://www.ruanyifeng.com/blog/2008/06/base64.html)
+* [Base64 编码](https://zhuanlan.zhihu.com/p/31264921)
