@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+	<style>
+		div {
+			border: solid #6AC5AC 3px;
+			width: 100px;
+			height: 100px;
+			padding: 20px;
+		}
+		.static {
+			position: static;
+		}
+		.relative {
+			position: relative;
+		}
+		.absolute {
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			border: solid red 3px;
+		}
+	</style>
+</head>
+<body>
+	<div class="static">static
+		<div class="static">static
+			<div class="relative">relative
+				<div class="static">static
+					<div class="static">static
+						<div class="absolute">B</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
