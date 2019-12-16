@@ -1,0 +1,22 @@
+{
+  "name": "sort_algorithm",
+  "version": "1.0.0",
+  "description": "Sort Algorithm",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/unit_test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.11.2",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "glob": "^7.0.3"
+  }
+}
